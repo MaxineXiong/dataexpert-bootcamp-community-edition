@@ -107,8 +107,8 @@ Choose any GUI tool you like. Here’s how:
 	1. `Dashboard` ➜ `Quick Links` ➜ `Add New Server`
 	2. Under the `General` tab: give it a friendly `Name`, e.g. `Data-Engineer-Handbook-DB`
 	3. `Connection` tab: Copy in credentials from `.env`, where the defaults are:
-	   - **Name**: Name of your choice  
-	   - **Host**: `my-postgres-container`  
+
+	   - **Host**: `my-postgres-container` or `172.18.0.1`  
 	   - **Port**: `5432`  
 	   - **Database**: `postgres`  
 	   - **Username**: `postgres`  
